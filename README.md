@@ -36,3 +36,9 @@ Poner en la terminal: git checkout development
 - Hacer commit con "git commit -m "mensaje"".
 
 - Subir la nueva rama con sus cambios a GitHub poniendo "git push -u origin development"
+
+## Mergear la rama nueva con main
+
+- Ir a la rama main con: git checkout main
+- Fusionar la rama development con git utilizando "git merge development"
+- Subir los cambios a GitHub con "git push"
